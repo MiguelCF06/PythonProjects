@@ -7,12 +7,12 @@
 
 
 <p align="center">
-  <img src="https://pngtree.com/so/vector'>vector png from pngtree.com" width="260" height="200">
+  <img src="https://i.imgur.com/3GmPd7O.png" width="260" height="200">
 
-  <h3 align="center">Web Development Projects</h3>
+  <h3 align="center">Python Projects</h3>
 
   <p align="center">
-        <em>Look for some of the web projects</em>
+        <em>Look for some of the Python projects</em>
     <br /><br />
     <a href="https://github.com/MiguelCF06/WebDevelopment_Projects/issues">Report Bug</a>
     ·
