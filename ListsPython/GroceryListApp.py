@@ -1,0 +1,55 @@
+import datetime
+print("Welcome to the Grocery List App.")
+now = datetime.datetime.now()
+print("Current Date and Time: ", end="")
+print(now.strftime("%m/%d\t%H:%M"))
+Groceries = ["Meat", "Chesse"]
+print("You currently have Meat and Cheese in your list.")
+print()
+
+Groceries.append(input("Type of food to add to the grocery list: ").title())
+Groceries.append(input("Type of food to add to the grocery list: ").title())
+Groceries.append(input("Type of food to add to the grocery list: ").title())
+print()
+
+print("Here is your grocery list:")
+print(Groceries)
+print("Here is your grocery list sorted:")
+Groceries.sort()
+print(Groceries)
+print()
+
+print("Simulating grocery shopping...")
+print()
+
+print("Current grocery list: {} items".format(len(Groceries)))
+print(Groceries)
+bought = input("What food did you just buy: ").title()
+Groceries.remove(bought)
+print("Removing {} from list...".format(bought))
+print()
+
+print("Current grocery list: {} items".format(len(Groceries)))
+print(Groceries)
+bought = input("What food did you just buy: ").title()
+Groceries.remove(bought)
+print("Removing {} from list...".format(bought))
+print()
+
+print("Current grocery list: {} items".format(len(Groceries)))
+print(Groceries)
+bought = input("What food did you just buy: ").title()
+Groceries.remove(bought)
+print("Removing {} from list...".format(bought))
+print()
+
+print("Current grocery list: {} items".format(len(Groceries)))
+print(Groceries)
+print()
+print("Sorry, the store is out of {}".format(Groceries[1]))
+Groceries[1] = input("What would you like instead: ").title()
+print()
+
+print("Here is what remains in your grocery list:")
+Groceries.sort(reverse=True)
+print(Groceries)
