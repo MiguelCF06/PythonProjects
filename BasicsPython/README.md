@@ -31,6 +31,10 @@ Using: Basic data types, functions like type(), print(), input().
 | TemperatureConvert  | This program will convert a given temperature in degrees Fahrenheit to degrees Celcius and degrees Kelvin.  |
 | TriangleSolver  | This program will calculate the hypotenuse and area of a right triangle given its two bases.  |
 | MulandExp  | This program displays a multiplication table and exponentiation table for any given number.
+##Usage
+```
+python <namefile>.py
+```
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
