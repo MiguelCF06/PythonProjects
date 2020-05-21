@@ -32,7 +32,7 @@ Using: Basic data types, functions like type(), print(), input().
 | TriangleSolver  | This program will calculate the hypotenuse and area of a right triangle given its two bases.  |
 | MulandExp  | This program displays a multiplication table and exponentiation table for any given number.
 
-##Usage
+## Usage
 ```
 python <namefile>.py
 ```
