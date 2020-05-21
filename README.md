@@ -25,10 +25,10 @@
 
 | Project  | URL |
 | ------------- | ------------- |
-| BasicsPython  | [./]()  |
-| ConditionalPrograms  | [./]()  |
-| ListsPython  | [./]()  |
-| UsingLoops  |[./]()  |
+| BasicsPython  | [./BasicsPython](https://github.com/MiguelCF06/PythonProjects/tree/master/BasicsPython)  |
+| ConditionalPrograms  | [./Conditionals](https://github.com/MiguelCF06/PythonProjects/tree/master/ConditionalPrograms)  |
+| ListsPython  | [./Lists-Tuples](https://github.com/MiguelCF06/PythonProjects/tree/master/ListsPython)  |
+| UsingLoops  |[./ForLoops](https://github.com/MiguelCF06/PythonProjects/tree/master/UsingLoops)  |
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
