@@ -14,9 +14,9 @@
   <p align="center">
         <em>Look for some of the Python projects</em>
     <br /><br />
-    <a href="https://github.com/MiguelCF06/WebDevelopment_Projects/issues">Report Bug</a>
+    <a href="https://github.com/MiguelCF06/PythonProjects/issues">Report Bug</a>
     ·
-    <a href="https://github.com/MiguelCF06/WebDevelopment_Projects/issues">Request Feature</a>
+    <a href="https://github.com/MiguelCF06/PythonProjects/issues">Request Feature</a>
   </p>
 </p>
 
