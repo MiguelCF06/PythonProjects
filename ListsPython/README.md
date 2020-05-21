@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://i.imgur.com/3GmPd7O.png" width="490" height="200">
 
-  <h3 align="center">Basics of python</h3>
+  <h3 align="center">List in python</h3>
 
   <p align="center">
         <em>Look for some of the Python projects</em>
