@@ -39,7 +39,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 [contributors-url]: https://github.com/MiguelCF06/PythonProjects/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/MiguelCF06/PythonProjects.svg?style=flat-square
 [forks-url]: https://github.com/MiguelCF06/PythonProjects/network/members
-[stars-shield]: https://img.shields.io/github/stars/MiguelCF06/Python_Projects.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/MiguelCF06/PythonProjects.svg?style=flat-square
 [stars-url]: https://github.com/MiguelCF06/PythonProjects/stargazers
 [issues-shield]: https://img.shields.io/github/issues/MiguelCF06/PythonProjects?style=flat-square
 [issues-url]: https://github.com/MiguelCF06/PythonProjects/issues
