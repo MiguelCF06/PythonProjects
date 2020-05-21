@@ -7,7 +7,7 @@
 
 
 <p align="center">
-  <img src="https://i.imgur.com/3GmPd7O.png" width="260" height="200">
+  <img src="https://i.imgur.com/3GmPd7O.png" width="390" height="200">
 
   <h3 align="center">Python Projects</h3>
 
