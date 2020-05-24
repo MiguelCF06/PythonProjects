@@ -1,7 +1,7 @@
 print("Welcome to the Even Odd Number Sorter App\n")
 
 flag = True
-coma = [","]
+
 while flag:
     numbers = input("Enter in a string of numbers separated by a comma (,) : ")
     numbers = numbers.replace(" ", "")
