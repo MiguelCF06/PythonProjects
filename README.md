@@ -29,6 +29,7 @@
 | ConditionalPrograms  | [./Conditionals](https://github.com/MiguelCF06/PythonProjects/tree/master/ConditionalPrograms)  |
 | Dictionaries  | [./Dictionaries](https://github.com/MiguelCF06/PythonProjects/tree/master/Dictionaries)  |
 | ListsPython  | [./Lists-Tuples](https://github.com/MiguelCF06/PythonProjects/tree/master/ListsPython)  |
+| MoreLoops  | [./MoreLoops](https://github.com/MiguelCF06/PythonProjects/tree/master/MoreLoops)  |
 | UsingLoops  |[./ForLoops](https://github.com/MiguelCF06/PythonProjects/tree/master/UsingLoops)  |
 
 ## Contributing
