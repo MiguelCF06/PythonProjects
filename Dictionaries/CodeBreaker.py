@@ -1,5 +1,5 @@
 from collections import Counter
-print("Welcome to the Frequency Analysis App\n")
+print("Welcome to the Code Breaker App\n")
 
 nonLetters = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0", " ", ".", ",", "?", "!", "'", '"', ":", ";", ")", "(",
               "[", "]", "+", "*", "-", "_", "=", "%", "#", "/", "|", "\n", "\t", "&"]
