@@ -39,6 +39,7 @@ input("Press 'Enter' to begin purchasing tickets!!!\n")
 purchased = 0
 playing = True
 sold = []
+money = 0.0
 
 while winning not in sold and playing:
     lottery = []
@@ -53,13 +54,14 @@ while winning not in sold and playing:
 
     if lottery not in sold:
         purchased += 1
+        money += 3.20
         sold.append(lottery)
         print(lottery)
     else:
         print("Losing ticket generated: disregard...")
 
     if purchased % interval == 0:
-        print("{} tickets purchased so far with no winners...\n".format(purchased))
+        print("{} tickets purchased, spend it ${:.2f}, so far with no winners...\n".format(purchased, money))
         ans = input("Keep purchasing tickets (y/n): ").lower().strip()
         if ans != "y":
             playing = False
@@ -68,7 +70,7 @@ if lottery == winning:
     print("Winning ticket numbers: ", end="")
     for number in lottery:
         print(str(number),end=" ")
-    print("\nPurchased a total of {} tickets.".format(purchased))
+    print("\nPurchased a total of {} tickets. And spend ${:.2f}".format(purchased, money))
 else:
-    print("\nYou bought {} tickets and still lost!".format(purchased))
+    print("\nYou bought {} tickets and still lost ${:.2f}!".format(purchased, money))
     print("Better luck next time!")
