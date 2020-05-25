@@ -5,7 +5,7 @@ categories = {
     "Sports":["soccer", "football", "tennis", "baseball", "basketball"],
     "Fruits":["apple", "pineapple", "grape", "watermelon", "strawberry"],
     "Games":["zelda", "uncharted", "resident evil", "god of war", "the last of us"],
-    "Series":["stranger things", "la casa de papel", "dark", "elite", "la casa de las flores"]
+    "Series":["stranger things", "money heist", "dark", "elite", "house of flowers"]
 }
 
 flag = True
