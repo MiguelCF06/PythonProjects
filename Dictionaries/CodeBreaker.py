@@ -16,7 +16,7 @@ It was possible that they were already too late and that the work had been done.
 If that was indeed so, they could at least have their revenge upon the man who had done it.
 But they were hopeful that nothing of great importance had yet come to the detective's knowledge, as otherwise,
 they argued, he would not have troubled to write down and forward such trivial information as McMurdo claimed to have
-given him. However, all this they would learn from his own lips. Once in their power,
+given him. However, all this they would q learn from his own lips. Once in their power,
 they would find a way to make him speak, z.
 It was not the first time that they had handled an unwilling witness. 
 """
