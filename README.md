@@ -27,6 +27,7 @@
 | ------------- | ------------- |
 | BasicsPython  | [./BasicsPython](https://github.com/MiguelCF06/PythonProjects/tree/master/BasicsPython)  |
 | ConditionalPrograms  | [./Conditionals](https://github.com/MiguelCF06/PythonProjects/tree/master/ConditionalPrograms)  |
+| Classes  | [./Classes](https://github.com/MiguelCF06/PythonProjects/tree/master/Classes)  |
 | Dictionaries  | [./Dictionaries](https://github.com/MiguelCF06/PythonProjects/tree/master/Dictionaries)  |
 | Functions  | [./Functions](https://github.com/MiguelCF06/PythonProjects/tree/master/Functions)  |
 | ListsPython  | [./Lists-Tuples](https://github.com/MiguelCF06/PythonProjects/tree/master/ListsPython)  |
