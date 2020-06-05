@@ -2,19 +2,25 @@ import random
 import time
 
 class Card:
+    """Class where card is displayed"""
     def __init__(self, rank, value, suit):
+        """Initialize its values"""
         self.rank = rank
         self.value = value
         self.suit = suit
 
     def displayCard(self):
+        """Display the cards of the deck"""
         print("{} of {}".format(self.rank, self.suit))
 
 class Deck:
+    """Make a deck"""
     def __init__(self):
+        """Initialize Values"""
         self.cards = []
 
     def buildDeck(self):
+        """Build a deck of cards"""
         suits = ["Hearts", "Spades", "Clubs", "Diamonds"]
         ranks = {
             "A": 11,
@@ -37,33 +43,40 @@ class Deck:
                 self.cards.append(card)
 
     def shuffleDeck(self):
+        """Shuffle the cards"""
         random.shuffle(self.cards)
 
     def dealCard(self):
+        """Remove a card from the deck to be dealt"""
         card = self.cards.pop()
         return card
 
 class Player:
     def __init__(self):
+        """Initialize the values"""
         self.hand = []
         self.handValue = 0
         self.playingHand = True
 
     def drawHand(self, deck):
+        """The players starting hand"""
         for x in range(2):
             card = deck.dealCard()
             self.hand.append(card)
 
     def DisplayHand(self):
+        """Display the cards of the player"""
         print("\nPlayer's Hand.")
         for card in self.hand:
             card.displayCard()
 
     def hit(self, deck):
+        """Take a card from the deck"""
         card = deck.dealCard()
         self.hand.append(card)
 
     def getHandValue(self):
+        """Gets the values of the cards of the player"""
         self.handValue = 0
         aceInHand = False
         for card in self.hand:
@@ -75,6 +88,7 @@ class Player:
         print("The total value of the hand is {}.".format(self.handValue))
 
     def updateHand(self, deck):
+        """Look for if the player wants to continue getting more cards"""
         if self.handValue < 21:
             choice = input("Would you like to hit? (y/n): ").lower()
             if choice == "y":
@@ -85,23 +99,28 @@ class Player:
             self.playingHand = False
 
 class Dealer:
+    """The dealer class"""
     def __init__(self):
+        """Initialize values"""
         self.hand = []
         self.handValue = 0
         self.playingHand = True
 
     def drawHand(self, deck):
+        """The starting hand of the dealer"""
         for x in range(2):
             card = deck.dealCard()
             self.hand.append(card)
 
     def displayHand(self):
+        """Displays the cards of the dealer"""
         input("\nPress enter to revel the dealer cards")
         for card in self.hand:
             card.displayCard()
             time.sleep(1)
 
     def getHandValue(self):
+        """Gets the values of each card in the dealer's hand"""
         self.handValue = 0
         aceInHand = False
         for card in self.hand:
@@ -112,6 +131,7 @@ class Dealer:
             self.handValue -= 10
 
     def hit(self, deck):
+        """Allow the dealer to take another card to his hand"""
         self.getHandValue()
         while self.handValue < 17:
             card = deck.dealCard()
@@ -120,11 +140,13 @@ class Dealer:
 
 class Game:
     def __init__(self, amountMoney):
+        """Initialize values"""
         self.amountMoney = amountMoney
         self.bet = 20
         self.winner = ""
 
     def setBet(self):
+        """Ask for the user for the amount of money to bet"""
         betting = True
         while betting:
             userBet = int(input("What is your bet? (minimum bet of $20): "))
@@ -137,6 +159,8 @@ class Game:
                 betting = False
 
     def scoring(self, playerHandValue, dealerHandValue):
+        """The hand value score between player and dealer
+        is compared for look for the winner"""
         if playerHandValue == 21:
             print("You've got Blackjack!!\n")
             self.winner = "P"
@@ -161,15 +185,18 @@ class Game:
                 self.winner = "Tie"
 
     def payout(self):
+        """Depending of the winner the bet is added or substracted to the player's money"""
         if self.winner == "P":
             self.amountMoney += self.bet
         elif self.winner == "D":
             self.amountMoney -= self.bet
 
     def displayMoney(self):
+        """Displays the money of the player"""
         print("The current money is: ${}.".format(self.amountMoney))
 
     def displayMoneyAndBet(self):
+        """Displays the money and bet that the player did"""
         print("The current money is: ${}. Current Bet: ${}".format(self.amountMoney, self.bet))
 
 print("Welcome to the Blackjack App.")
